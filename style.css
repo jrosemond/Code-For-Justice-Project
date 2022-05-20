@@ -1,0 +1,54 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+h1 {
+   
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+} 
+
+
+/* navbar */
+ul {
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+
+}
+
+li{
+    display: inline;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding:25px;
+}
+
+li a:hover {
+    background-color: lightgrey;
+    padding:15px;
+    text-align: center;
+   
+}
+/* flexbox */
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box{
+    background-color: white;
+    border-style: groove;
+    padding:140px;
+    margin: 10px;
+    max-width: 200px;
+}
